@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Owned Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('hero-image.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .hero a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .hero a:hover {
+            background-color: #555;
+        }
+
+        /* Featured Products */
+        .featured {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .featured h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            flex: 1;
+            max-width: 300px;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 1.25rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .product p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .product a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .product a:hover {
+            background-color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Pre-Owned Clothing Store</h1>
+        <p>Discover high-quality pre-loved clothes at unbeatable prices.</p>
+        <a href="#">Shop Now</a>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product Name 1</h3>
+                <p>$20.00</p>
+                <a href="#">View Details</a>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product Name 2</h3>
+                <p>$25.00</p>
+                <a href="#">View Details</a>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product Name 3</h3>
+                <p>$30.00</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pre-Owned Clothing Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
